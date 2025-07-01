@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Link from 'next/link';
 import React from 'react';
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
           'lg:text-7xl/normal lg:py-12',
         )}
       >
-        <a href='#'>The Blog</a>
+        <Link href='#'>The Blog</Link>
       </h1>
     </header>
   );
